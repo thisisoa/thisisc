@@ -1,4 +1,4 @@
-# Pointer in C
+# Pointers in C
 
 Here are some good stuff to understand pointers!
 

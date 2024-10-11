@@ -1,4 +1,4 @@
-'''c
+```c
 #include <unistd.h>
 
 void	ft_swap (int *a, int *b)
@@ -17,4 +17,4 @@ int main ()
 	write (1, "x", 2);
 	return (0);
 }
-'''
+```

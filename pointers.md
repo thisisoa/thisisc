@@ -44,7 +44,7 @@ Integer variable 'alpha' has an address: 0x7ffea8115f44
 ### Declaring and Using Pointers
 - It has a data type like int, char 
 - It has a variable name prefixed by an asterisk *ptr
-- It need to be initialized before it is used
+- It needs to be initialized before it is used
 - **THIS IS IMPORTANT!** It is assigned the address of another variable, one of the same data type. 
 For int, it is int. For char it is char!
 - The ampersand operator **&** fetches a variables' address.

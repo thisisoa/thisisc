@@ -3,7 +3,7 @@
 Here are some good stuff to understand pointers!
 
 ### Intro
-Think that invite you a party at my house by just showing the photo of the house!
+Think that I invite you a party at my house by just showing the photo of the house!
 Insane right! and you asked me about the address! Yes only if I give you the exact address, this make it much more easier to find that party house! So enjoy!
 
 Copy the below code to your IDE/VIM:

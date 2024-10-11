@@ -1,3 +1,4 @@
+```c
 #include <stdio.h>
 
 int ft_strlen(char *str)
@@ -18,3 +19,4 @@ int main()
     printf("The length of '%s' is %d\n", test_string, length);
     return 0;
 }
+```

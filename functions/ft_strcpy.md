@@ -24,14 +24,18 @@ If  the  destination  string of a strcpy() is not large enough, then anything mi
 
 Let's take this warning into count! and add a control function runs.
 ```c
+#include <string.h>
+#include <stdio.h>
+
 char *ft_strcpy(char *dest, char *src) //src for source, dest for destination
 {
         int     i; //create counter
         i = 0;
 
-        if (strlen(src) >= sizeof(dest))
+        if (strlen(src) >= sizeof(dest)) // check if the length of source smaller or at least eqaul to destination.
         {
-                return NULL;
+                printf("Buffer Error\n"); //if it is not, show message
+                return NULL; //finalize function as returning empty
         }
 
         while (src[i] != '\0') //conditional loop -> run until source hits the end

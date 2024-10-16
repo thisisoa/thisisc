@@ -14,18 +14,20 @@ n for max number of characters to copy
         int     i; // create a counter
         i = 0;
 
-        while (i < n && src[i] != '\0') //
+        while (i < n && src[i] != '\0')
+//conditional loop -> run until counter is smaller than max number of charaters AND source hits the end.
         {
                 dest[i] = src[i];
                 i++;
         }
 
         while (i < n)
+//conditional loop -> add NULL terminator for the rest if the copied charcters are less than max number of characters.
         {
                 dest[i] = '\0';
                 i++;
         }       
-        return (dest); 
+        return (dest); //finalize the function by returning destination 
 }
 ```
 

@@ -6,7 +6,7 @@ The strings may not overlap, and the destination string dest must be large enoug
 ```c
 char *ft_strcpy(char *dest, char *src) //src for source, dest for destination
 {
-        int     i; //create counter
+        int     i; //create a counter
         i = 0;
 
         while (src[i] != '\0') //conditional loop -> run until source hits the end

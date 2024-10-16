@@ -44,6 +44,6 @@ char *ft_strcpy(char *dest, char *src) //src for source, dest for destination
                 i++; //increase counter for next character
         }
         dest[i] = '\0'; //the counter reached the last, close the string.
-        return dest; //finalize the function
+        return dest; //finalize the function by returning destination
 }
 ```

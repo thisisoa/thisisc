@@ -22,7 +22,7 @@ int main()
 }
 ```
 
-The output is
+Here's the output:
 ```c
 abcdefghijklmnopqrstuvwxyz
 ```

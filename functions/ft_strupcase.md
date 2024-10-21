@@ -1,6 +1,11 @@
+This function that transforms every letter to uppercase.
+
+The header file for the output
+
 ```c
 #include <stdio.h>
-
+```
+```c
 char	*ft_strupcase(char *str)
 {
 	char	*temp;

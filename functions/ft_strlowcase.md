@@ -8,7 +8,7 @@ The function:
 ```c
 char	*ft_strlowcase(char *str)
 {
-	char	*temp;
+	char	*temp; // create a temporary pointer array
 
 	temp = str;
 	while (*temp != '\0')
@@ -26,7 +26,7 @@ Main function for the output:
 ```c
 int main()
 {
-	char str[] = "HARFLERI KUCULT ama bunlar kalsin";
+	char str[] = "MAKE THEM LOWER and keep it lower";
 	ft_strlowcase(str);
 	printf("%s\n", str);
 	return 0;

@@ -11,7 +11,7 @@ src for source,
 n for max number of characters to copy
 */
 {       
-        int     i; // create a counter
+        unsigned int     i; // create a counter
         i = 0;
 
         while (i < n && src[i] != '\0')

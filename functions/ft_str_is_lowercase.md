@@ -7,12 +7,12 @@ int	ft_str_is_lowercase(char *str)
 	}
 	while (*str != '\0')
 	{
-		if (*str < 'a' || *str > 'z')
+		if (*str < 'a' || *str > 'z') // check if character is not between 'a' and 'z'
 		{
-			return (0);
+			return (0); // if it is not retrun 0
 		}
-		str++;
+		str++; // increment to check next character
 	}
-	return (1);
+	return (1); // skip if condition if character is between 'a' and 'z'
 }
 ```

@@ -7,12 +7,12 @@ int	ft_str_is_uppercase(char *str)
 	}
 	while (*str != '\0')
 	{
-		if (*str < 'A' || *str > 'Z')
+		if (*str < 'A' || *str > 'Z') // check if the character is not between 'A' and 'Z'
 		{
-			return (0);
+			return (0); // if it is true return 0
 		}
-		str++;
+		str++; // increment to check next character
 	}
-	return (1);
+	return (1); // return 1 if the character is between 'A' and 'Z'
 }
 ```
